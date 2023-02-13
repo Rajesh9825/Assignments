@@ -92,7 +92,7 @@ Ans: Boolean operators are also called as logical operator.
 	 and, or, not This are the boolean operator.
 
 Q19. What will the output of the following?
-Ans: 
+... 
     1 or 0 -> True
 
     0 and 0 -> False
@@ -100,7 +100,7 @@ Ans:
     True and False and True -> False
 
     1 or 0 or 0 -> True
-
+...
 
 Q20. What are conditional statements in Python?
 Ans:  	== , Equals to condition 
