@@ -343,6 +343,12 @@ Q93. Write a Python program to create a list of tuples from given list having nu
 
 Input: list = [9, 5, 6]
 Output: [(9, 729), (5, 125), (6, 216)]
+
+Ans:
+
+	list1 = [9, 5, 6]
+	res = [(val, pow(val, 3)) for val in list1]
+	print(res)
 Q94. Write a Python program to get all combinations of 2 tuples.
 
 Input : test_tuple1 = (7, 2), test_tuple2 = (7, 8)
