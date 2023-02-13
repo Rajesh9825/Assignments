@@ -76,8 +76,9 @@ Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
-Ans: 	name= "iNeuron"
-print(name*4)
+
+	name= "iNeuron"
+	print(name*4)
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 Ans: 	        num= int(input("Enter Number:"))
@@ -92,7 +93,7 @@ Ans: Boolean operators are also called as logical operator.
 	 and, or, not This are the boolean operator.
 
 Q19. What will the output of the following?
-... 
+ 
     1 or 0 -> True
 
     0 and 0 -> False
@@ -100,32 +101,36 @@ Q19. What will the output of the following?
     True and False and True -> False
 
     1 or 0 or 0 -> True
-...
 
 Q20. What are conditional statements in Python?
-Ans:  	== , Equals to condition 
-!= , Not Equals to condition 
-> , Greater than condition 
-< , Less than condition 
->= , Greater than and Equals to condition 
-<= , Less than and Equals to condition 
+ 
+	== , Equals to condition 
+	!= , Not Equals to condition 
+	> , Greater than condition 
+	< , Less than condition 
+	>= , Greater than and Equals to condition 
+	<= , Less than and Equals to condition 
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
-Ans: if, elif, else this keywords we use in nested if-else condition.
+	
+	if, elif, else this keywords we use in nested if-else condition.
 	
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
-Ans: 	age=int(input("Enter age of person:"))
-        if age >= 18:
-                print("I can Vote")
-        else:
-                print("I can't Vote")
+	
+	age=int(input("Enter age of person:"))
+	if age >= 18:
+		print("I can Vote")
+	else:
+		print("I can't Vote")		
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
-Ans: 	numbers = [12, 75, 150, 180, 145, 525, 50]
+Ans: 	
+	
+	numbers = [12, 75, 150, 180, 145, 525, 50]
         Result=0
         for i in numbers:
                 if (i % 2) == 0 :
@@ -135,7 +140,9 @@ Ans: 	numbers = [12, 75, 150, 180, 145, 525, 50]
         
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
-Ans: 	  num1=int(input("Enter num1:"))
+Ans:
+
+	num1=int(input("Enter num1:"))
         num2=int(input("Enter num2:"))
         num3=int(input("Enter num3:"))
 
@@ -176,18 +183,24 @@ Ans: 	numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
 Q26. What is a string? How can we declare string in Python?
-Ans:  strings in Python are arrays of bytes representing unicode characters.
-      However, Python does not have a character data type, a single character is simply a string with a length of 1.
-      A = “Hello World!”
-      Print(A)
+
+	strings in Python are arrays of bytes representing unicode characters.
+      	However, Python does not have a character data type, a single character is simply a string with a length of 1.
+      	A = “Hello World!”
+      	Print(A)
 
 
 Q27. How can we access the string using its index?
+	
+	A = “Hello World!”
+      	Print(A[1])
 
 Q28. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
+Ans: 
+	
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
