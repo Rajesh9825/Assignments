@@ -200,14 +200,32 @@ Q28. Write a code to get the desired output of the following
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
 Ans: 
+
+	string = "Big Data iNeuron"
+	print(string[-7:])
 	
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "norueNi"
+Ans:
+
+	string = "Big Data iNeuron"
+	print(string[-1:-8:-1])
+
 Q30. Resverse the string given in the above question.
+Ans;
+
+	string = "Big Data iNeuron"
+	print(string[-1: : -1])
 
 Q31. How can you delete entire string at once?
+Ans:  
+<!-- 
+del string
+print(string) -->
+
+
 
 Q32. What is escape sequence?
 
