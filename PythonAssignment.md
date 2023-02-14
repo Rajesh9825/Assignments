@@ -221,32 +221,68 @@ Ans;
 
 Q31. How can you delete entire string at once?
 Ans:  
-<!-- 
-del string
-print(string) -->
 
+	del string
+	print(string) 
 
 
 Q32. What is escape sequence?
+Ans:
+
+	Character combinations consisting of a backslash (\) followed by a letter or by a combination of digits are called "escape sequences." To represent a newline character, single quotation mark, or certain other characters in a character constant, you must use escape sequences. An escape sequence is regarded as a single character and is therefore valid as a character constant.
+	Escape sequences are typically used to specify actions such as carriage returns and tab movements on terminals and printers. They are also used to provide literal representations of nonprinting characters and characters that usually have special meanings, such as the double quotation mark ("). The following table lists the ANSI escape sequences and what they represent.
 
 Q33. How can you print the below string?
-
 'iNeuron's Big Data Course'
+Ans:
+
+	print("'iNeuron's Big Data Course'")
+	
 Q34. What is a list in Python?
+Ans: 
+
+	Lists are used to store multiple items in a single variable.
+	Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 
 Q35. How can you create a list in Python?
+Ans:
+
+	list1 = ["hello","hi","Bye","nice"]
+	print(list1)
 
 Q36. How can we access the elements in a list?
+Ans:
+
+	list1 = ["hello","hi","Bye","nice"]
+	print(list1[1])
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+Ans:
+
+	list1 = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+	print(list1[4][2])
+
+
 Q38. Take a list as an input from the user and find the length of the list.
+
 
 Q39. Add the word "Big" in the 3rd index of the given list.
 
 lst = ["Welcome", "to", "Data", "course"]
+
+Ans: 
+
+	list1 = ["Welcome", "to", "Data", "course"]
+	list1[3] = "Big"
+	print(list1)
+
+
 Q40. What is a tuple? How is it different from list?
+Ans:
+	
 
 Q41. How can you create a tuple in Python?
 
