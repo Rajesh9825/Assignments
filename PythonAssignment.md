@@ -267,7 +267,16 @@ Ans:
 
 
 Q38. Take a list as an input from the user and find the length of the list.
+Ans: 
 
+	list1=[]
+	n = int(input("enter number of element"))
+	for i in range(0,n):
+	    list1.append(int(input()))
+
+	print(list1)
+	print(len(list1))
+	
 
 Q39. Add the word "Big" in the 3rd index of the given list.
 
@@ -285,6 +294,10 @@ Ans:
 	
 
 Q41. How can you create a tuple in Python?
+Ans: 
+	
+	tup = () or tup = (hi, hello, bye, nice) or tuo = (1, 2, 3, 4)
+	
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
